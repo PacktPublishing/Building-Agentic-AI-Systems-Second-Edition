@@ -20,8 +20,11 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 ### Setting up the Environment
 
 ```bash
+# Clone this repo
+git clone https://github.com/PacktPublishing/Building-Agentic-AI-Systems-Second-Edition.git agentic-systems
+
 # Navigate to this directory
-cd code/chapter-01
+cd agentic-systems
 
 # Create a virtual environment and install dependencies
 uv venv
@@ -33,12 +36,17 @@ uv add -r requirements.txt
 
 ## Environment Variables
 
-Create a `.env` file in this directory with your API keys:
+Create a `.env` file in this directory with your API keys (or rename the .env.sample and add the API keys there):
 
 ```
 OPENAI_API_KEY=your_openai_api_key_here
 ANTHROPIC_API_KEY=your_anthropic_api_key_here  # Optional, for Anthropic examples
 ```
+
+### How to get API Keys?
+
+- OpenAI: SignUp at [OpenAI Platform](https://platform.openai.com/)
+- Anthropic: SignUp at [Claude Platform](https://platform.claude.com/)
 
 ## Running the Notebooks
 
