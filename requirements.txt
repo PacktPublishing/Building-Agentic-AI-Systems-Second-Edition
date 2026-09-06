@@ -58,6 +58,9 @@ prometheus-client==0.26.0
 python-dotenv==1.2.3
 jsonschema==4.26.0
 
+# Testing (the chapter 3 harness runs pytest as its verifier)
+pytest==9.1.1
+
 # Jupyter tooling (the 'dev' dependency group in pyproject.toml)
 ipykernel==7.3.0
 jupyter==1.1.1
