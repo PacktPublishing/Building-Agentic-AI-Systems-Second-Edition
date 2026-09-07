@@ -64,6 +64,7 @@ python-dotenv==1.2.3
 jsonschema==4.26.0
 pyyaml==6.0.3
 protobuf==6.33.6
+pydantic==2.12.5
 
 # Testing (the chapter 3 harness runs pytest as its verifier)
 pytest==9.1.1
