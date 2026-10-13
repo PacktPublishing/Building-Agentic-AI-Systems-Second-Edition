@@ -20,7 +20,6 @@ langchain==1.4.0
 langchain-core==1.6.1
 langchain-openai==1.6.0
 langchain-anthropic==1.7.1
-langchain-mcp-adapters==0.3.2
 langgraph==1.2.11
 langsmith==0.12.1
 
@@ -28,6 +27,8 @@ langsmith==0.12.1
 crewai==1.15.18
 
 # Model Context Protocol (MCP)
+# Pinned to 1.28.1 because crewai requires it. The Chapter 5 and Chapter 6 notebooks
+# install mcp 2.x (and langchain[mcp] for Chapter 5) in their first code cell.
 mcp==1.28.1
 
 # Agent2Agent (A2A) Protocol (the http-server extra brings the Starlette routes and SSE streaming)
