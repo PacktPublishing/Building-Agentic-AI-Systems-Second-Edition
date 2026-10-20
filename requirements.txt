@@ -29,7 +29,7 @@ crewai==1.15.18
 # Model Context Protocol (MCP)
 # Pinned to 1.28.1 because crewai requires it. The Chapter 5 and Chapter 6 notebooks
 # install mcp 2.x (and langchain[mcp] for Chapter 5) in their first code cell.
-mcp==1.28.1
+mcp==1.30.0
 
 # Agent2Agent (A2A) Protocol (the http-server extra brings the Starlette routes and SSE streaming)
 a2a-sdk[http-server]==1.1.2
