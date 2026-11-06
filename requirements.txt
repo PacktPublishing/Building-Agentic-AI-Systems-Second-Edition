@@ -54,7 +54,7 @@ numpy==2.5.2
 scikit-learn==1.9.0
 
 # Security and auth
-pyjwt[crypto]==2.13.0
+pyjwt[crypto]==2.15.0
 cryptography==50.0.1
 
 # Monitoring
